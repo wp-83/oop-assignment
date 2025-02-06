@@ -7,8 +7,12 @@ public class Book {
         this.title = title;
         this.isbn = isbn;
         this.author = author;
+
+        printTitle();
     }
 
-    
+    public void printTitle(){
+        System.out.println("Alice borrowed: " + this.title);
+    }
 
 }
