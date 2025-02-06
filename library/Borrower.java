@@ -1,7 +1,13 @@
 import java.util.ArrayList;
 
 public class Borrower {
-    private ArrayList<>
+    private String nameBorrower;
+    private ArrayList<Book> dataBorrower;
 
-    public 
+    public Borrower(String name) {
+        this.nameBorrower = name;
+        dataBorrower = new ArrayList<Book>;
+    } 
+
+
 }
