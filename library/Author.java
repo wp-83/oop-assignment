@@ -6,4 +6,12 @@ public class Author {
         this.name = name;
         this.biography = biography;
     }
+
+    public String getName(){
+        return this.name;
+    }
+
+    public String biography(){
+        return this.biography;
+    }
 }
