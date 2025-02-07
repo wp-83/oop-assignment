@@ -15,4 +15,14 @@ public class Book {
         System.out.println("Alice borrowed: " + this.title);
     }
 
+    public void printInfo(){
+        System.out.println("Title: " + this.title);
+        System.out.println("ISBN: " + this.isbn);
+        System.out.println("Author: " + this.author.getName());
+        System.out.println("Biography: " + this.author.getbiography());
+    }
+
+    public void printAdd(){
+        System.out.println("Book added to library: " + this.title);
+    }
 }
