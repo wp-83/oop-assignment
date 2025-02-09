@@ -23,6 +23,7 @@ public class Library {
         
         for (Book book : bookList){
             book.printInfo();
+            System.out.println("------------------------");
         }
     }
 }
